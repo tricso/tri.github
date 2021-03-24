@@ -18,7 +18,7 @@ const db = sql.createConnection({
 
 db.connect((err) => {
   if (err) throw err;
-  console.log('Mysql Connected...');
+  console.log('Mysql Connected... success');
 });
 // để sử dụng biến body
 app.use(bodyParser.urlencoded({ extended: false }));
